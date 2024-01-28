@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 #pull docker image from ecr
 docker pull public.ecr.aws/q8e1y7y5/flask-code-build:latest
 echo "Docker Image pulled succesfully"
